@@ -83,6 +83,10 @@ For all the tests to pass, you'll need to install the dependencies specified as 
 
 Tests are written using `nbdev`, for example see the documentation for `test_eq`.
 
+## Building Docs
+
+ Note: When you are building the documentation using `make docs`, you may face an error `ModuleNotFoundError: No module named 'azureml'`. This is known issue with azure integration, so ignore this error for now. 
+
 ## Contributing
 
 After you clone this repository, please run `nbdev_install_git_hooks` in your terminal. This sets up git hooks, which clean up the notebooks to remove the extraneous stuff stored in the notebooks (e.g. which cells you ran) which causes unnecessary merge conflicts.
